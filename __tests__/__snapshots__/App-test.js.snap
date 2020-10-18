@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly across screens 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "alignSelf": "center",
+        "justifyContent": "center",
+      },
+      Object {
+        "flex": 1,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        undefined,
+      ]
+    }
+  >
+    <Image
+      resizeMode="contain"
+      source={
+        Object {
+          "testUri": "../../../App/Assets/Images/icon_react.png",
+        }
+      }
+      style={
+        Object {
+          "alignSelf": "center",
+          "height": 200,
+          "width": 200,
+        }
+      }
+    />
+    <Text
+      style={
+        Object {
+          "fontSize": 22,
+        }
+      }
+    >
+      React Native Boilerplate
+    </Text>
+  </View>
+</View>
+`;
