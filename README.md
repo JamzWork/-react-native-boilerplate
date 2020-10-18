@@ -2,12 +2,14 @@
 This is an simple react native boilerplate
 Architecture
 
-The driving goal of the architecture of the boilerplate is separation of concerns. Namely:
+Basic Description of the App
+
+    This Application just show spinner value before and after dispatching and Spinner action.
 
     Presentational components are separated from containers (aka "screens"). 
-    State is managed using global Redux stores. 
-    With Redux, state is shared using global stores, and changes are predictable: actions are applied by reducers to the state. While the pattern can be a bit much for small projects, the clear separation of responsibilities and predictability helps with bigger applications.
-    2 Additional test are written, For splash screen and for dispatching an action.
+    State is managed using global Redux stores.
+    Redux Thunk is applied as middleware.
+    2 Additional tests are written, For splash screen and for dispatching an action.
     
     Main Directory layout
 
