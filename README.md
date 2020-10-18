@@ -4,7 +4,9 @@ Architecture
 
 Basic Description of the App
 
-    This Application just show spinner value before and after dispatching and Spinner action.
+    App has 2 screens, Splash Screen and HomeScreen.
+    
+    After SplashScreen, HomeScreen is shown in which SpinnerAction is dispatched to just show before after value of spinner after dispatching an action.
 
     Presentational components are separated from containers (aka "screens"). 
     State is managed using global Redux stores.
